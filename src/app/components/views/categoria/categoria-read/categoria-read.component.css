@@ -13,3 +13,29 @@
     color: black;
     font-weight: 500;
 }
+
+button {
+    margin-bottom: .8rem;
+}
+
+.table {
+    width: 100%;
+}
+
+.livros {
+    color: blue;
+    margin-left: 1rem;
+}
+
+.edit {
+    color: green;
+}
+
+.delete {
+    color: red;
+    margin-left: .4rem;
+}
+
+.mat-header {
+    width: 6rem;
+}
