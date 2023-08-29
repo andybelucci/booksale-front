@@ -14,7 +14,6 @@ export class LivroService {
   constructor(private http: HttpClient) { }
 
   findAllByCategoria(id_cat: String): Observable<Livro[]> {
-   
     const url = `${this.baseUrl}/livros?categoria=${id_cat}`
     return this.http.get<Livro[]>(url) 
   }
